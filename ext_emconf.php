@@ -30,4 +30,9 @@ $EM_CONF[$_EXTKEY] = array(
 	'author' => 'Andri Steiner',
 	'author_email' => 'varnish@snowflake.ch',
 	'author_company' => 'snowflake',
+	'autoload' => array(
+		'psr-4' => array(
+			'Snowflake\\Varnish\\' => 'Classes'
+		)
+	)
 );
